@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Western Bang Bang";
+    src: url("/fonts/WesternBangBang-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barchella Drumal";
+    src: url("/fonts/Barchella_Drumal.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+// body {
+//     font-family: 'Playfair Display';
+// }
+
+// .info__names {
+//     font-family: 'Playfair Display';
+// }
+
+.ticket {
+    &__main {
+        display: grid;
+    }
+}
+
+.info {
+    &__names {
+        font-family: "Playfair Display";
+    }
+    &__date {
+        font-family: "Montserrat";
+        font-weight: 700;
+    }
+    &__event {
+        font-family: "Montserrat";
+    }
+    &__persons {
+        font-family: "Western Bang Bang";
+    }
+    &__type {
+        font-family: "Barchella Drumal";
+    }
+}
